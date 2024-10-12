@@ -1,2 +1,2 @@
 # REACT-POWERED-PORTFOLIO
-PERSONAL PORTFOLIO WEBSITE USING REACT, TAILWIND CSS AND REACT ROUTER
+This project is a personal portfolio website built with React, styled using Tailwind CSS, and featuring page navigation with React Router DOM. The website includes key sections such as Home, Experience, Stack, Projects, and Certifications, showcasing my skills, work, and achievements. It is designed to be fully responsive and modern, with the main goal of practicing React development while creating a portfolio to highlight my expertise. To run the project locally, simply clone the repository, install dependencies, and start the development server. Future improvements may include adding dark mode, animations, and backend integration for additional features.
