@@ -5,18 +5,18 @@ import React from 'react'
 const Socials = () => {
   return (
     <section>
-      <div className='container mx-auto p-6 flex flex-col justify-center items-center space-y-24'>
+      <div className='container mx-auto p-4 flex flex-col justify-center items-center space-y-8 2xl:space-y-24 md:p-6'>
         <div className='flex flex-row justify-center items-center space-x-7'>
-          <button className='bg-black text-white rounded-full p-2 hover:text-amber-500'>
-            <i class="fa-brands fa-github fa-2x"></i>
+          <button className='bg-black text-white p-2 hover:text-amber-500 rounded-lg md:rounded-full'>
+            <i class="fa-brands fa-github text-2xl md:text-3xl 2xl:text-4xl"></i>
           </button>
 
-          <button className='bg-black text-white rounded-full p-2 hover:text-amber-500'>
-            <i class="fa-brands fa-linkedin fa-2x"></i>
+          <button className='bg-black text-white p-2 hover:text-amber-500 rounded-lg md:rounded-full'>
+            <i class="fa-brands fa-linkedin text-2xl md:text-3xl 2xl:text-4xl"></i>
           </button>
 
-          <button className='bg-black text-white rounded-full p-2 hover:text-amber-500'>
-            <i class="fa-brands fa-facebook fa-2x"></i>
+          <button className='bg-black text-white p-2 hover:text-amber-500 rounded-lg md:rounded-full'>
+            <i class="fa-brands fa-facebook text-2xl md:text-3xl 2xl:text-4xl"></i>
           </button>
         </div>
 

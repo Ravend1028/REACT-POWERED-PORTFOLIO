@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <header>
-      <div className='container mx-auto p-6 flex flex-row justify-center items-center space-x-10 font-pixel mb-10'>
+      <div className='container mx-auto p-4 flex flex-row justify-center items-center space-x-10 font-pixel mb-2 2xl:mb-10 lg:p-6'>
         <NavLink to='/' className={ classLink }>
           Home
         </NavLink>
