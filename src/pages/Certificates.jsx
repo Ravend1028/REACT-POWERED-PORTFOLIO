@@ -67,7 +67,7 @@ const Certificates = () => {
     <>
       { certificateSections.map((section, index) => (
         <Divider key={index} title={section.title}>
-          <div className="grid grid-cols-2 place-items-center gap-3 w-2/3">
+          <div className="grid place-items-center gap-3 w-2/3 grid-cols-1 lg:grid-cols-2 ">
             {section.images.map((image, idx) => (
               <img key={idx} src={image.src} alt={image.alt} />
             ))}

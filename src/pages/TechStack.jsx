@@ -61,7 +61,7 @@ const TechStack = () => {
       { techStackData.map((section, index) => (
         <Divider key={index} title={section.title}>
           {section.items.map((item, idx) => (
-            <img key={idx} className="w-40" src={item.src} alt={item.alt} />
+            <img key={idx} className="w-16 lg:w-40" src={item.src} alt={item.alt} />
           ))}
         </Divider>
       )) }

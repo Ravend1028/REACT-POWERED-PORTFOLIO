@@ -40,7 +40,7 @@ const Experience = () => {
           description={exp.description}
           image={exp.image}
           alt={exp.alt}
-          imageStyle="rounded-xl w-1/3"
+          imageStyle="rounded-xl lg:w-1/3"
         />
       )) }
     </>
