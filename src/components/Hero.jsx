@@ -7,7 +7,7 @@ const Hero = () => {
     <main>
       <div className='container mx-auto p-4 flex flex-col justify-center items-center space-y-10 2xl:p-6'>
         <div className='flex flex-row justify-center items-center '>
-          <div className=' border-4 border-black w-2/3 sm:w-1/2 md:w-2/5 xl:w-1/3'>
+          <div className=' border-4 border-black w-3/4 sm:w-1/2 md:w-2/5 xl:w-1/3'>
             <img className="rounded-xl transform rotate-3 border-2 border-black" src={ Raven } alt="raven-image" />
           </div>
         </div>
