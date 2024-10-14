@@ -5,7 +5,7 @@ import React from 'react'
 const Socials = () => {
   return (
     <section>
-      <div className='container mx-auto p-4 flex flex-col justify-center items-center space-y-16 lg:space-y-8 2xl:space-y-24 md:p-6'>
+      <div className='container mx-auto p-4 flex flex-col justify-center items-center space-y-16 lg:space-y-10 2xl:space-y-24 md:p-6'>
         <div className='flex flex-row justify-center items-center space-x-7'>
           <a 
             href="https://www.linkedin.com/in/raven-david-511407279/" 
@@ -36,9 +36,13 @@ const Socials = () => {
         </div>
 
         <div>
-          <button className='bg-black p-3 rounded-lg text-white font-pixel hover:text-amber-500 text-xs lg:text-md 2xl:text-lg'>
+          <a
+            href="../assets/DAVID_COE_RESUME.pdf"  
+            download="DAVID_COE_RESUME.pdf"         
+            className='bg-black p-3 rounded-lg text-white font-pixel hover:text-amber-500 text-xs lg:text-md 2xl:text-lg'
+          >
             Download CV
-          </button>
+          </a>
         </div>
       </div>
     </section>
