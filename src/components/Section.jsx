@@ -4,7 +4,7 @@ import React from 'react'
 
 const Section = ({title, company, description, image, alt, imageStyle}) => {
   return (
-    <section className='group hover:bg-gray-200'>
+    <section data-aos="fade-right" className='group hover:bg-gray-200'>
       <div className='container mx-auto p-6 flex flex-col justify-between items-start border-black border-b-2 space-y-7 lg:flex-row lg:space-y-0'>
         <div className='flex flex-col justify-center items-start space-y-7'>
           <div className="space-y-2">

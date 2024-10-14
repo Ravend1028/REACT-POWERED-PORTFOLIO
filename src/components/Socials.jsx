@@ -37,7 +37,7 @@ const Socials = () => {
 
         <div>
           <a
-            href="../assets/DAVID_COE_RESUME.pdf"  
+            href="../../public/DAVID_COE_RESUME.pdf"  
             download="DAVID_COE_RESUME.pdf"         
             className='bg-black p-3 rounded-lg text-white font-pixel hover:text-amber-500 text-xs lg:text-md 2xl:text-lg'
           >
