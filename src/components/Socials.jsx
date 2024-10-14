@@ -5,7 +5,7 @@ import React from 'react'
 const Socials = () => {
   return (
     <section>
-      <div className='container mx-auto p-4 flex flex-col justify-center items-center space-y-16 lg:space-y-4 2xl:space-y-24 md:p-6'>
+      <div className='container mx-auto p-4 flex flex-col justify-center items-center space-y-16 lg:space-y-8 2xl:space-y-24 md:p-6'>
         <div className='flex flex-row justify-center items-center space-x-7'>
           <button className='bg-black text-white p-2 hover:text-amber-500 rounded-lg md:rounded-full'>
             <i class="fa-brands fa-github text-2xl md:text-3xl 2xl:text-4xl"></i>
@@ -21,7 +21,7 @@ const Socials = () => {
         </div>
 
         <div>
-          <button className='bg-black p-3 rounded-lg text-white font-pixel hover:text-amber-500'>
+          <button className='bg-black p-3 rounded-lg text-white font-pixel hover:text-amber-500 text-xs lg:text-md 2xl:text-lg'>
             Download CV
           </button>
         </div>
