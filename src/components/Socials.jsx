@@ -1,5 +1,6 @@
 import React from 'react'
 import resume from '../assets/DAVID_COE_RESUME.pdf'
+import { LiaDownloadSolid } from "react-icons/lia";
 
 // PRINTING OF CV HANDLER
 
@@ -36,13 +37,15 @@ const Socials = () => {
           </a>
         </div>
 
-        <div>
+        <div className='border-black border-b-2 m-3 px-2'>
           <a
             href={ resume } 
             download="resume"     
-            className='bg-black p-3 rounded-lg text-white font-pixel hover:text-amber-500 text-xs lg:text-md 2xl:text-lg'
+            className='text-black inline-flex font-pixel hover:text-amber-500 text-xs lg:text-md 2xl:text-lg'
           >
-            Download CV
+            Download CV 
+
+            <LiaDownloadSolid className='mb-1 ml-2 text-lg'/>
           </a>
         </div>
       </div>

@@ -4,6 +4,7 @@ import WebIntern from '../assets/images/web-intern-cdm.jpg'
 import QAIntern from '../assets/images/qa-intern-ascensoft.jpg'
 import WebInternTwo from '../assets/images/intern-lwli.jpg'
 import WebInternTest from '../assets/images/web-intern-test.jpg'
+import { FaMapMarker } from 'react-icons/fa'
 
 const experiences = [
   {
@@ -36,7 +37,12 @@ const Experience = () => {
         <Section
           key={index}
           title={exp.title}
-          company={exp.company}
+          company={
+            <span className="flex items-center">
+              <FaMapMarker className="mb-1 mr-2 text-orange-700" /> {/* Adjust styling as needed */}
+              {exp.company}
+            </span>
+          }
           description={exp.description}
           image={exp.image}
           alt={exp.alt}
