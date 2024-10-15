@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header>
-      <div className={`relative container mx-auto p-4 flex ${isMenuOpen ? 'flex-row-reverse justify-between' : 'flex-row justify-end'} items-center font-pixel mb-2 2xl:mb-10 lg:p-6 lg:justify-center lg:space-x-10`}>
+      <div className={`relative container mx-auto p-4 flex ${isMenuOpen ? 'flex-row-reverse justify-between items-start' : 'flex-row justify-end items-center'} font-pixel mb-2 2xl:mb-10 lg:p-6 lg:justify-center lg:space-x-10`}>
         <button className='block lg:hidden focus:outline-none' onClick={ toggleMenu }>
           {isMenuOpen ? (
             // X Icon
