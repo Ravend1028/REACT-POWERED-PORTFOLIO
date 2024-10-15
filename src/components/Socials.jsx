@@ -13,35 +13,35 @@ const Socials = () => {
             href="https://www.linkedin.com/in/raven-david-511407279/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className='bg-black text-white p-2 hover:text-amber-500 rounded-lg md:rounded-full'
+            className='bg-zinc-200 text-white p-2 hover:text-amber-500 rounded-lg md:rounded-xl hover:bg-amber-500'
           >
-            <i className="fa-brands fa-linkedin text-2xl md:text-3xl 2xl:text-4xl"></i>
+            <i className="fa-brands fa-linkedin text-2xl md:text-3xl 2xl:text-4xl text-gray-950"></i>
           </a>
 
           <a 
             href="https://github.com/Ravend1028" 
             target="_blank" 
             rel="noopener noreferrer"
-            className='bg-black text-white p-2 hover:text-amber-500 rounded-lg md:rounded-full'
+            className='bg-zinc-200 text-white p-2 rounded-lg md:rounded-xl hover:bg-amber-500'
           >
-            <i className="fa-brands fa-github text-2xl md:text-3xl 2xl:text-4xl"></i>
+            <i className="fa-brands fa-github text-2xl md:text-3xl 2xl:text-4xl text-gray-950"></i>
           </a>
 
           <a 
             href="https://www.facebook.com/raven.david.28" 
             target="_blank" 
             rel="noopener noreferrer"
-            className='bg-black text-white p-2 hover:text-amber-500 rounded-lg md:rounded-full'
+            className='bg-zinc-200 text-white p-2 hover:text-amber-500 rounded-lg md:rounded-xl hover:bg-amber-500'
           >
-            <i className="fa-brands fa-facebook text-2xl md:text-3xl 2xl:text-4xl"></i>
+            <i className="fa-brands fa-facebook text-2xl md:text-3xl 2xl:text-4xl text-gray-950"></i>
           </a>
         </div>
 
-        <div className='border-black border-b-2 m-3 px-2'>
+        <div className='border-zinc-200 border-b-2 m-3 px-2 hover:border-amber-500'>
           <a
             href={ resume } 
             download="resume"     
-            className='text-black inline-flex font-pixel hover:text-amber-500 text-xs lg:text-md 2xl:text-lg'
+            className='text-zinc-200 inline-flex font-pixel text-xs lg:text-md 2xl:text-lg hover:text-amber-500'
           >
             Download CV 
 

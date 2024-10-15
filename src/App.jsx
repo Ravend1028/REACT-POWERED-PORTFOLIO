@@ -11,6 +11,7 @@ import Experience from './pages/Experience'
 import TechStack from './pages/TechStack'
 import Certificates from './pages/Certificates'
 import Projects from './pages/Projects'
+import NotFoundPage from './pages/NotFoundPage'
 
 // createBrowserRouter enable client side routing
 // creating an object of that will handles the routing logic
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
       <Route path='/techstack' element={ <TechStack /> } />
       <Route path='/projects' element={ <Projects /> } />
       <Route path='/certificates' element={ <Certificates /> } />
+      <Route path='*' element={ <NotFoundPage /> }/>
     </Route>
   )
 );

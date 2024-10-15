@@ -8,7 +8,7 @@ import 'aos/dist/aos.css'; // Import AOS styles
 AOS.init({
   duration: 900, 
   easing: 'ease-in-out', 
-  once: false, 
+  once: true, 
 }); 
 
 createRoot(document.getElementById('root')).render(
