@@ -17,7 +17,7 @@ const Section = ({title, company, description, image, alt, imageStyle}) => {
             </p>
           </div>
 
-          <p className='font-pixel text-base md:max-w-3xl'>
+          <p className='font-pixel leading-relaxed text-sm md:text-base md:max-w-3xl'>
             { description }
           </p>
         </div>

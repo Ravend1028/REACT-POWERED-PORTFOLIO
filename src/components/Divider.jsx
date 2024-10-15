@@ -9,7 +9,7 @@ const Divider = ({title, children}) => {
         </h1>
 
         
-        <div className='flex flex-wrap flex-row justify-center items-center space-x-5'>
+        <div className='flex flex-wrap flex-row justify-center items-center space-x-2 xl:space-x-5'>
           {children}
         </div>
       </div>
