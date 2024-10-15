@@ -31,9 +31,7 @@ const router = createBrowserRouter(
 
 const App = () => {
   return (
-    <div className="bg-slate-100">
-      <RouterProvider router={router} />
-    </div>
+    <RouterProvider router={router} />
   )
 };
 
