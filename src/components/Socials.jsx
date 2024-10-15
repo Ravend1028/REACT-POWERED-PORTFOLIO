@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from '../assets/DAVID_COE_RESUME.pdf'
 
 // PRINTING OF CV HANDLER
 
@@ -37,8 +38,8 @@ const Socials = () => {
 
         <div>
           <a
-            href="../../public/DAVID_COE_RESUME.pdf"  
-            download="DAVID_COE_RESUME.pdf"         
+            href={ resume } 
+            download="resume"     
             className='bg-black p-3 rounded-lg text-white font-pixel hover:text-amber-500 text-xs lg:text-md 2xl:text-lg'
           >
             Download CV

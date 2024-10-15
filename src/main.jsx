@@ -6,7 +6,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS styles
 
 AOS.init({
-  duration: 800, 
+  duration: 900, 
   easing: 'ease-in-out', 
   once: false, 
 }); 
