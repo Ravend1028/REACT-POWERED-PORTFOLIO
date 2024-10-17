@@ -7,7 +7,7 @@ import { LiaDownloadSolid } from "react-icons/lia";
 const Socials = () => {
   return (
     <section>
-      <div className='container mx-auto p-4 flex flex-col justify-center items-center space-y-16 lg:space-y-10 2xl:space-y-24 md:p-6'>
+      <div className='container mx-auto p-4 flex flex-col justify-center items-center space-y-16 lg:space-y-10 2xl:space-y-32 md:p-6'>
         <div className='flex flex-row justify-center items-center space-x-7'>
           <a 
             href="https://www.linkedin.com/in/raven-david-511407279/" 
